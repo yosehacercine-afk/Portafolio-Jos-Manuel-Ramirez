@@ -107,12 +107,16 @@
       }
 
       .portrait-card {
-        width: 34mm;
-        height: 42mm;
+        width: 38mm;
+        height: 38mm;
         margin-bottom: 6mm;
         margin-left: auto;
-        border: 0.25mm solid rgba(238, 231, 220, 0.18);
+        border: 0.25mm solid rgba(238, 231, 220, 0.24);
+        border-radius: 5mm;
         background: #000;
+        box-shadow:
+          0 0 0 0.55mm rgba(238, 231, 220, 0.045),
+          0 5mm 14mm rgba(0, 0, 0, 0.38);
         overflow: hidden;
       }
 
@@ -121,7 +125,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: center center;
+        object-position: 48% 38%;
         filter: saturate(0.9) contrast(1.04) brightness(0.9);
       }
 
@@ -230,7 +234,7 @@
 
       .side {
         display: grid;
-        gap: 7mm;
+        gap: 5.2mm;
       }
 
       ul {
@@ -246,7 +250,7 @@
         position: absolute;
         left: 16mm;
         right: 16mm;
-        bottom: 9mm;
+        bottom: 7mm;
         display: flex;
         justify-content: space-between;
         gap: 8mm;
@@ -382,8 +386,8 @@
       </div>
 
       <footer class="footer">
-        <span>Disponible para dirección, edición y desarrollo visual de piezas audiovisuales.</span>
-        <span>Portafolio permanente: yosehacercine-afk.github.io/Portafolio-Jos-Manuel-Ramirez</span>
+        <span>Disponible para dirección, edición y desarrollo visual.</span>
+        <span>Portafolio: yosehacercine-afk.github.io/Portafolio-Jos-Manuel-Ramirez</span>
       </footer>
     </main>
   </body>

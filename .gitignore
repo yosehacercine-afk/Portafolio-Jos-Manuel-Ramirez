@@ -5,6 +5,7 @@
 !robots.txt
 !.nojekyll
 !.gitignore
+!README.md
 !css/
 !css/**
 !js/

@@ -303,7 +303,7 @@ figure:hover img {
 
 .footer {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(4, auto);
   justify-content: space-between;
   gap: 1rem;
   padding: 1.25rem 0 2.2rem;

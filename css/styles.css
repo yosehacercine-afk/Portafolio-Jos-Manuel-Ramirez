@@ -212,6 +212,15 @@ h2 {
   background: #000;
 }
 
+.piece-description {
+  max-width: 44rem;
+  margin-top: 0.82rem;
+  color: rgba(238, 231, 220, 0.66);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1rem, 1.12vw, 1.18rem);
+  line-height: 1.46;
+}
+
 .single img {
   aspect-ratio: 16 / 9;
   object-fit: cover;
@@ -368,6 +377,7 @@ figure:hover img {
   .cv-grid p,
   .cv-grid li,
   .note-copy p,
+  .piece-description,
   .personal-copy p,
   .intro-line,
   h1,
@@ -404,6 +414,7 @@ figure:hover img {
 
   .intro-line,
   .project-title p,
+  .piece-description,
   .personal-copy p,
   .note-copy p,
   .footer {
